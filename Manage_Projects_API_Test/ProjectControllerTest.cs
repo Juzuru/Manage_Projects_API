@@ -38,7 +38,7 @@ namespace Manage_Projects_API_Test
                Name = "TestCreateProjectName",
                ProjectTypeId = _projectType.GetAll()[0].Id,
                StartDate = DateTime.Now
-            }, message);
+            }, "You do not have");
         }
 
         [Test]
